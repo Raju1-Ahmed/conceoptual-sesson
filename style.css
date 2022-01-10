@@ -1,19 +1,28 @@
-.div1{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+body{
+    margin: 0;
+    padding: 0;
 }
-.div2{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-}
-.div3{
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
+.title{
+    text-align: center;
+    color: green;
 }
 .parent{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+.photo{
+    width: 350px;
+}
+.details-btn{
+    padding: 15px 50px ;
+    background-image: linear-gradient(45deg, green, red,green);
+    border-radius: 20px;
+    border: none;
+    
+}
+.details-btn:hover{
+    color: whitesmoke;
+    background-image: linear-gradient(145deg, red, green,red);
+
 }
